@@ -197,16 +197,15 @@ ul.list a{
 
 .footer-item a{
 	background: none repeat scroll 0 0 #1669B0;
-	border:1px solid #808080;
+	border:2px solid black;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding:10px 8px 10px 8px;
 }
 
 .footer-item-small {
-	background: url("../images/facebook.gif") no-repeat scroll 0 0 transparent;
-	border:1px solid #808080;
-	margin-right:100px;
+	background: none no-repeat scroll 0 0 #808080;
+	border:2px solid black;
 	margin-top: -5px;
 	height:22px;
 	width:22px;
@@ -219,9 +218,23 @@ ul.list a{
     text-indent: -10000em;
 }
 
+.fb{
+	background: url("../images/facebook.gif") no-repeat scroll 0 0 transparent;
+	margin-right:100px;
+}
+
+.linkedin{
+	background: url("../images/linkedin.png") no-repeat scroll 0 0 black;
+	margin-right:5px;
+}
+
 /*On hover*/
 .footer-item-small:hover,.footer-item a:hover{
-	border:1px solid white;
+	border:2px solid white;
+}
+
+.linkedin:hover{
+	border-radius: 4px;
 }
 
 .clear {
