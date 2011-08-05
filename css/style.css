@@ -135,9 +135,10 @@ ul.list{
 	position: relative;
     right: 15px;
 	list-style-type: circle;
-	line-height: 1.4em;
+	line-height: 1.5em;
 	list-style-image: url(../images/bullet.gif);
 	margin-top: 6px;
+	margin-bottom: 12px;
 }
 
 ul.grey{
