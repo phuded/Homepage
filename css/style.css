@@ -109,7 +109,7 @@ h2{
 
 .panel img{
 	float: left;
-	border-radius: 5px;
+	border-radius: 4px;
 	border: 1px solid #1669B0;
 	margin-right: 15px;
 }
@@ -125,7 +125,7 @@ h2{
 	background: none repeat scroll 0 0 #FFFFFF;
 	border-radius: 6px;
 	padding:12px;
-	width: 340px;
+	width:45.5%;
 	font-size:1.2em;
 }
 
@@ -159,11 +159,11 @@ ul.list a{
 }
 
 .titleLeft{
-
+	width:51%;
 }
 
 .titleRight{
-	margin-right:265px;
+	width:49%;
 }
 
 .separator{
@@ -192,8 +192,14 @@ ul.list a{
 	background-color:black;
 }
 
+.footer-items{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .footer-item {
-	margin-left:100px;
+	margin-left:20px;
 }
 
 .footer-item a{
@@ -221,13 +227,14 @@ ul.list a{
 
 .fb{
 	background: url("../images/facebook.gif") no-repeat scroll 0 0 transparent;
-	margin-right:100px;
+	margin-right:20px;
 }
 
 .linkedin{
 	background: url("../images/linkedin.png") no-repeat scroll 0 0 black;
 	margin-right:5px;
 }
+
 
 /*On hover*/
 .footer-item-small:hover,.footer-item a:hover{
