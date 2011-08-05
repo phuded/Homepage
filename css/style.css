@@ -226,7 +226,7 @@ ul.list a{
 }
 
 .fb{
-	background: url("../images/facebook.gif") no-repeat scroll 0 0 transparent;
+	background: url("../images/facebook.png") no-repeat scroll 0 0 transparent;
 	margin-right:20px;
 }
 
@@ -237,11 +237,12 @@ ul.list a{
 
 
 /*On hover*/
-.footer-item-small:hover,.footer-item a:hover{
+.footer-item a:hover{
 	border:2px solid white;
 }
 
-.linkedin:hover{
+.footer-item-small:hover{
+	border:2px solid white;
 	border-radius: 4px;
 }
 
