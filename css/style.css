@@ -105,6 +105,7 @@ h2{
 	margin-left:auto;
 	margin-right:auto;
 	font-size:1.2em;
+	box-shadow: 2px 2px 8px grey;
 }
 
 .panel img{
@@ -125,8 +126,9 @@ h2{
 	background: none repeat scroll 0 0 #FFFFFF;
 	border-radius: 6px;
 	padding:12px;
-	width:45.5%;
+	width:45%;
 	font-size:1.2em;
+	box-shadow: 4px 4px 12px grey;
 }
 
 /*List*/
@@ -159,17 +161,16 @@ ul.list a{
 }
 
 .titleLeft{
-	width:51%;
+	width:52%;
 }
 
 .titleRight{
-	width:49%;
+	width:48%;
 }
 
 .separator{
-	background: url("../images/separator.png") no-repeat scroll 0 0 transparent;
-	margin-left: 60px;
-	height: 35px;
+	background:transparent url("../images/separator.png") no-repeat center center;
+	height: 40px;
 }
 
 /*Footer*/
