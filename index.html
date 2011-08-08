@@ -6,8 +6,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Matthew Carter</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="css/slides.css" type="text/css" charset="utf-8" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script type="text/javascript" src="jquery/home.js"></script> 
+	<script type="text/javascript" src="jquery/home.js"></script>
+	<script type="text/javascript" src="jquery/slides.min.jquery.js"></script> 	
 	<link rel="icon" href="favicon.ico" type="image/x-icon" /> 	
 </head>
 <body>
@@ -20,16 +22,16 @@
 				<div class="menuPanel">
 					<ul id="menu" class="menu">
 						<li class="menu-item">
-							<a href="#home" class="selected">Home</a>
+							<a href="javascript:change('home')" class="selected">home</a>
 						</li>
 						<li class="menu-item">
-							<a href="#cv">CV</a>
+							<a href="javascript:change('cv')">cv</a>
 						</li>
 						<li class="menu-item">
-							<a href="#skills">Skills</a>
+							<a href="javascript:change('skills')">skills</a>
 						</li>
 						<li class="menu-item">
-							<a href="#projects">Projects</a>
+							<a href="javascript:change('projects')">projects</a>
 						</li>
 					</ul>
 				</div>
@@ -168,10 +170,11 @@
 			</div>
 			<div id="projects" class="tab_content" style="display:none;">
 				<h1>Projects</h1>
-				<div class="panel">
+				<div class="subPanel left">
 					<h2>ITV plc</h2>
 					<ul class="list">
 						<li>Workflow Management Tool</li>
+						<li>Content Portal</li>
 						<li>Compliance Portal</li>
 					</ul>
 					<h2>BG Group</h2>
@@ -179,16 +182,50 @@
 						<li>BI Reporting Dashboard/Portal</li>
 						<li>Advanced User Access Form</li>
 					</ul>
+				</div>
+				<div class="subPanel right">
 					<h2>Major UK Games Organiser</h2>
 					<ul class="list">
 						<li>Java-based Fileplan Importer Tool</li>
 					</ul>
 					<h2>For Fun</h2>
 					<ul class="list">
-						<li><a href="higherorlower">Higher or Lower</a> - jQuery-based card drinking game</li>
-						<li><a href="higherorlower/m">Higher or Lower Mobile</a></li>
+						<li><a href="higherorlower" target="_blank">Higher or Lower</a> - jQuery-based card drinking game</li>
+						<li><a href="higherorlower/m" target="_blank">Higher or Lower Mobile</a> - optimised for smart-phones</li>
 					</ul>
 				</div>
+				<div class="clear"></div>
+				<div id="slides">
+					<div class="slides_container">
+						<div class="slide">
+							<!--<a href="images/work/comp-1.png" title="Compliance Portal - To-Do List" target="_blank">--><img src="images/work/comp-1.png" width="700" height="400" alt="Compliance Portal - To-Do List"><!--</a>-->
+							<div class="caption" style="bottom:0">
+								<p>Compliance Portal - To-Do List</p>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="images/work/comp-2.png" width="700" height="400" alt="Compliance Portal - Input Screen">
+							<div class="caption">
+								<p>Compliance Portal - Input Screen</p>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="images/work/track-1.png" width="700" height="400" alt="Workflow Management Portal">
+							<div class="caption">
+								<p>Workflow Management Portal</p>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="images/work/track-2.png" width="700" height="400" alt="Workflow Management Portal">
+							<div class="caption">
+								<p>Workflow Management Portal</p>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="prev"><img src="images/slides/arrow-prev.png" width="24" alt="Arrow Prev"></a>
+					<a href="#" class="next"><img src="images/slides/arrow-next.png" width="24" alt="Arrow Next"></a>
+				</div>
+				
 			</div>
 		</div>
 		<div class="footerGap"></div>
