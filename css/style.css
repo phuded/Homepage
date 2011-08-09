@@ -33,19 +33,24 @@ a{
 .innerHeader{
 	margin-left:auto;
 	margin-right:auto;
-    width: 850px;
-	padding-top: 15px;
+    width: 800px;
+	height:100%;
 }
 
 .logo{
 	float:left;
 	height: 65px;
 	width:350px;
+	position: relative;
+	top:15%;
 }
 
 .menuPanel{
 	float: right;
-	padding: 0 55px;
+	height:50px;
+	position: relative;
+	top:25%;
+	right:2%
 }
 
 .menu{
@@ -79,10 +84,14 @@ a{
 /* Main content */
 .content {
 	width: 750px;
-	height: 715px;
+	height: 720px;
 	margin-left: auto;
     margin-right: auto;
-	margin-top:20px;
+	margin-top:15px;
+}
+
+.page-content{
+	display:none;
 }
 
 h1{
@@ -93,7 +102,7 @@ h1{
 }
 
 h2{
-	font-size: 1.2em;
+	font-size: 1.1em;
     margin-top: 0;
 	margin-bottom: 2px;
 }
@@ -122,6 +131,13 @@ h2{
 	font-weight:bold;
 }
 
+/*CV*/
+img.bulletBig{
+	border: 0 none;
+	margin-right: 7px;
+	margin-top: 3px;
+	border-radius: 0;
+}
 
 /*Half Panels*/
 .subPanel{
@@ -133,27 +149,6 @@ h2{
 	box-shadow: 4px 4px 12px grey;
 	-moz-box-shadow: 4px 4px 12px grey;
 	-webkit-box-shadow: 4px 4px 12px grey;
-}
-
-/*List*/
-
-ul.list{
-	position: relative;
-    right: 15px;
-	list-style-type: circle;
-	line-height: 1.5em;
-	list-style-image: url(../images/bullet.gif);
-	margin-top: 6px;
-	margin-bottom: 12px;
-}
-
-ul.grey{
-	list-style-image: url(../images/bullet2.png);
-}
-
-ul.list a{
-	color:#1669B0;
-	font-weight:bold;
 }
 
 .left{
@@ -172,12 +167,29 @@ ul.list a{
 	width:48%;
 }
 
+/*List*/
+
+ul.list{
+	position: relative;
+    right: 10px;
+	list-style-type: circle;
+	line-height: 1.5em;
+	list-style-image: url(../images/bullet.gif);
+	margin-top: 6px;
+	margin-bottom: 12px;
+}
+
+ul.grey{
+	list-style-image: url(../images/bullet2.png);
+}
+
 .separator{
 	background:transparent url("../images/separator.png") no-repeat center center;
 	height: 40px;
 }
 
 /*Footer*/
+
 .footer,.footerGap{
 	height:150px;
 }
@@ -198,7 +210,7 @@ ul.list a{
 }
 
 .footer-items{
-	width:750px;
+	width:775px;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -251,6 +263,8 @@ ul.list a{
 	border-radius: 4px;
 }
 
+/*Other*/
+
 .clear {
     clear: both;
     display: block;
@@ -258,4 +272,9 @@ ul.list a{
     overflow: hidden;
     visibility: hidden;
     width: 0;
+}
+
+.highlighted{
+	color:#1669B0;
+	font-weight:bold;
 }

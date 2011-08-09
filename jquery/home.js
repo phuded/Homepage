@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	/*Fade in content*/
+	$(".page-content").fadeIn();
+	
 	/*Slides*/
 	$('#slides').slides({
 				preload: true,
@@ -23,14 +26,3 @@ $(document).ready(function() {
 				}
 	});
 }); 
-
-
-function change(name){
-	var allTabs = $(".menu-item a");
-	allTabs.removeClass("selected");
-	$(".menu-item a:contains('"+name+"')").addClass("selected");
-		
-	$(".tab_content:visible").fadeOut('fast',function() {
-		$("#"+name+".tab_content").fadeIn();
-	});
-}

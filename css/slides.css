@@ -5,7 +5,6 @@
 
 #slides {
 	height:425px;
-	margin-top:22px;
 }
 
 /*
@@ -59,7 +58,7 @@
 
 .pagination {
 	margin:0 auto 0;
-	width:100px;
+	width:120px;
 	height:17px;
 	position:relative;
 	bottom:43px;
