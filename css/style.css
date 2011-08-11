@@ -132,11 +132,39 @@ h2{
 }
 
 /*CV*/
+
+#work,#education{
+	overflow: hidden;
+}
+
+#education{
+	height:15px;
+}
+
+a.show{
+	color:#1669B0;
+	font-size: 0.8em;
+	float:right;
+	text-shadow:none;
+	text-decoration:none;
+}
+
 img.bulletBig{
 	border: 0 none;
 	margin-right: 7px;
-	margin-top: 3px;
+	margin-top: 4px;
 	border-radius: 0;
+}
+
+.highlighted{
+	color:#1669B0;
+	font-size:0.8em;
+	font-weight:bold;
+	float:right;
+}
+
+h2 span.highlighted{
+	margin-right: 10px;
 }
 
 /*Half Panels*/
@@ -181,6 +209,11 @@ ul.list{
 
 ul.grey{
 	list-style-image: url(../images/bullet2.png);
+}
+
+ul.list li a{
+	color:#1669B0;
+	font-weight:bold;
 }
 
 .separator{
@@ -272,9 +305,4 @@ ul.grey{
     overflow: hidden;
     visibility: hidden;
     width: 0;
-}
-
-.highlighted{
-	color:#1669B0;
-	font-weight:bold;
 }
