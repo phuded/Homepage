@@ -32,15 +32,12 @@ $(document).ready(function() {
 $.expand = function(expand, contract, height){
 	
 	$('#'+contract).animate({
-		height: '-='+height,
+		height: '-='+height
 	},
 	500,
 	function() {
-		$('#'+expand).animate({
-			height: '+='+height,
-		},
-		500);
+		$('#'+expand).animate({height: '+='+height},500);
 	});
 	
 	$('.show').toggle();
-}
+};
