@@ -1,7 +1,4 @@
 $(document).ready(function() {
-	/*Fade in content*/
-	$(".page-content").fadeIn('slow');
-	
 	/*Slides*/
 	if ($('#slides').length){
 		$('#slides').slides({
