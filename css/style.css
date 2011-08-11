@@ -83,11 +83,12 @@ a{
 
 /* Main content */
 .content {
-	width: 750px;
 	height: 720px;
-	margin-left: auto;
-    margin-right: auto;
-	margin-top:15px;
+}
+
+.page-content{
+	width: 750px;
+	margin:15px auto 0 auto;
 }
 
 h1{
